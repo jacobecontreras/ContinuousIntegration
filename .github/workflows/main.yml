@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build project
-        run: g++ -o helloworld ../../main.cpp
+        run: g++ -o helloworld main.cpp
